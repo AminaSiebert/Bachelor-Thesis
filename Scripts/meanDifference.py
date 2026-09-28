@@ -3,6 +3,13 @@
 import pandas as pd
 
 df = pd.read_csv("/Users/amina/Downloads/data/combined.csv")
+# remove participants that did not answer all questions
+trial_counts = df.groupby("participant_id").size()
+missing = trial_counts[trial_counts != 64]
+
+df_complete = df[~df["participant_id"].isin(missing.index)].copy()
+
+df = df_complete
 
 # 1. Snow
 # mean snow and no snow rating for each participant

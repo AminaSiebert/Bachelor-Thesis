@@ -8,8 +8,9 @@ The processing steps were:
 | ------------------------- | --------------------- | -------------------------------------------- | ---------------------------------------------------------------------------------- |
 | [raw_data](Data/Responses/raw_data.zip)                 | [format.py](Scripts/format.py)             | [data_f.csv](Data/Responses/data_f.csv) and [data_m.csv](Data/Responses/data_m.csv)                   | Converted participants' responses to .csv files.                                   |
 | [data_f.csv](Data/Responses/data_f.csv) and [data_m.csv](Data/Responses/data_m.csv) | [combineData_f_and_m.py](Scripts/combineData_f_and_m.py) | [combined.csv](Data/Responses/combined.csv)                                 | Combine both .csv files into one                                                   |
-| [combined.csv](Data/Responses/combined.csv)              | [resorting.py](Scripts/resorting.py)          | [Data/Responses/data_realism.csv](data_realism.csv) and [data_thermal_comfort.csv](Data/Responses/data_thermal_comfort.csv) | Remove participants that did not answer all questions and reshape into wide format |
-[Data/Responses/data_realism.csv](data_realism.csv) and [data_thermal_comfort.csv](Data/Responses/data_thermal_comfort.csv) were used for the repeated-measures ANOVA in JASP. The resulting analysis files are [anova_realism.jasp](Data/Responses/anova_realism.jasp) and [anova_thermal_comfort.jasp](anova_thermal_comfort.jasp).
+| [combined.csv](Data/Responses/combined.csv)              | [resorting.py](Scripts/resorting.py)          | [data_realism.csv](Data/Responses/data_realism.csv) and [data_thermal_comfort.csv](Data/Responses/data_thermal_comfort.csv) | Remove participants that did not answer all questions and reshape into wide format |
+
+[data_realism.csv](Data/Responses/data_realism.csv) and [data_thermal_comfort.csv](Data/Responses/data_thermal_comfort.csv) were used for the repeated-measures ANOVA in JASP. The resulting analysis files are [anova_realism.jasp](Data/Responses/anova_realism.jasp) and [anova_thermal_comfort.jasp](anova_thermal_comfort.jasp).
 
 ## Calculating Mean and Standard Deviation of Participants' Ages
 The processing steps were:

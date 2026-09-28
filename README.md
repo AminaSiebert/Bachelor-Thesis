@@ -24,3 +24,6 @@ The processing steps were:
 
 ## Calculating Mean Difference and Standard Deviation for Snow and Kids' Creations
 - [meanDifference.py](Scripts/meanDifference.py) calculated the mean and standard deviation of the rating differences of thermal comfort for snow and kids' creations.
+
+## Images
+The rendered images used for the study can be found in the [images](images) folder.

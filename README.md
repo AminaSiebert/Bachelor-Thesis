@@ -21,3 +21,6 @@ The processing steps were:
 - [combinationsDiagram.py](Scripts/combinationsDiagram.py) generated Figure 4.1, which shows the mean thermal comfort and perceived realism ratings for each cue combination.
 - [thermalComfort.py](thermalComfort.py) generated Figure 4.2., which shows the mean imagined thermal comfort rating and standard error for each contextual cue.
 - [realism.py](realism.py) generated Figure 4.3., which shows the mean realism rating and standard error for each contextual cue.
+
+## Calculating Mean Difference and Standard Deviation for Snow and Kids' Creations
+- [meanDifference.py](Scripts/meanDifference.py) calculated the mean and standard deviation of the rating differences of thermal comfort for snow and kids' creations.
